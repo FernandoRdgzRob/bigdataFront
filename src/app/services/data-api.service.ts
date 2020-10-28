@@ -13,8 +13,8 @@ import { retry, catchError } from 'rxjs/operators';
 })
 export class DataApiService {
 
- 
-  apiURL = 'http://localhost:8080/api/auth/';
+  apiURL = 'http://104.198.244.0:8115/api/auth';
+  //apiURL = 'http://localhost:8080/api/auth/';
   //apiURL = 'http://localhost:10010/';
   
   
