@@ -297,10 +297,11 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var DataApiService = /** @class */ (function () {
+    //apiURL = 'http://localhost:8080/api/auth/';
     //apiURL = 'http://localhost:10010/';
     function DataApiService(http) {
         this.http = http;
-        this.apiURL = 'http://localhost:8080/api/auth/';
+        this.apiURL = 'http://104.198.244.0:8115/api/auth/';
         /*========================================
           CRUD Methods for consuming RESTful API
         =========================================*/
