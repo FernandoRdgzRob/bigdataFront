@@ -301,7 +301,7 @@ var DataApiService = /** @class */ (function () {
     //apiURL = 'http://localhost:10010/';
     function DataApiService(http) {
         this.http = http;
-        this.apiURL = 'http://104.198.244.0:8115/api/auth/';
+        this.apiURL = 'http://104.198.244.0:8116/api/auth/';
         /*========================================
           CRUD Methods for consuming RESTful API
         =========================================*/
